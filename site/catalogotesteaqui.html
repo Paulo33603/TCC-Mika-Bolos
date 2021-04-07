@@ -1,0 +1,397 @@
+<?php
+include_once("../controller/noticia.controller.php");
+?>
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Catálogo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- LINKS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/popper.min.js" type="text/javascript"></script>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- LINKS -->
+
+    </head>
+    <body>
+        <!-- MENU NAVBAR -->
+        <?php
+        include 'includes/navbar.php';
+        ?>
+        <!-- MENU NAVBAR -->
+
+        <style>
+            @font-face{
+                font-family:'LoveStory';
+                src: url("fontes/Love_Story_Rough.ttf");
+            }
+
+            #titulo{
+                font-family:'LoveStory';
+                font-size: 50px;
+                color: white;  
+                height:50px    
+            }
+
+            body{
+                background-image:  ;
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+        </style>
+
+        <!-- MENU NAVBAR -->   
+        <main class="container my-2 pt-5">
+            
+            <div class="row my-1">
+                <div class="col-md-4 col-sm-12 my-3"> <hr style="border-color:#b21f2d"><hr style="border-color:#b21f2d"> </div>
+
+                <div class="col-md-4 col-sm-12 my-2" style="text-align: center; font-family:'LoveStory'; font-size: 50px; color: #b21f2d">
+                    <p> CATÁLOGO </p>
+                </div>
+
+                <div class="col-md-4 col-sm-12 my-3"> <hr style="border-color:#b21f2d"><hr style="border-color:#b21f2d"> </div>
+            </div>
+
+
+
+            <!-- Content Row -->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0002.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;"  width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Floresta Negra </h3>
+                            <p class="card-text text-center"> Bolo em camadas de chocolate, recheio de cerejas,
+                                                              cobertura de chanttily, com raspas de chocolate. Alérgicos: contém farinha de trigo, leite e derivados e ovo.</p>
+
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0003.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Abacaxi com coco</h3>
+                            <p class="card-text text-center"> Bolo branco, recheios de leite condesado com abacaxi picado e coco ralado.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, 
+                                                              leite e derivados e ovo.</p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                       
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0004.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Churros </h3>
+                            <p class="card-text text-center"> Bolo branco, recheios de creme de churros e mousse de canela, 
+                                                              cobertura de mousse branco, creme de churros e crocante de canela.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo.</p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+
+
+
+
+
+
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                       
+                        <img class="card-img-top" <img src="img/catalogo2/IMG-20191209-WA0005.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Chocolate com morango </h3>
+                            <p class="card-text text-center"> Bolo de chocolate, recheio de creme de chocolate com morangos picados, cobertura com conefeitos. Alérgicos: contém farinha de trigo, leite e derivados e ovo.
+                                                              Pode conter amendoim, amêndoa, castanha de caju, castanha do Pará e avelã.</p>
+
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                       
+                        <img class="card-img-top" <img src="img/catalogo2/IMG-20191209-WA0006.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Chocolate com cereja</h3>
+                            <p class="card-text text-center"> Bolo de chocolate, recheio de mousse de chocolate e creme gelado com cereja,
+                                                              cobertura de mousse de chocolate, ganache e cerejas.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                      
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0007.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Chocolate </h3>
+                            <p class="card-text text-center"> Bolo de chocolate, recheio de mousse de chocolate, 
+                                                              cobertura de mousse de chocolate e raspas de chocolate.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados, ovo. </p>
+                                  
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0008.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Chocolate branco com morango </h3>
+                            <p class="card-text text-center"> Bolo branco, recheio de mousse de chocolate branco 
+                                                              cobertura de mousse de chocolate branco e raspas de chocolate branco.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados, ovo. </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                       
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0009.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> limão </h3>
+                            <p class="card-text text-center"> Bolo de branco. Recheio de leite condesado e limão; cobertura com chanttily (opcional).
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo.  </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0011.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Pessêgo </h3>
+                            <p class="card-text text-center">  Bolo branco, recheio de creme gelado e pessêgos picados, cobertura de pessêgos picados.
+                                                               Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados, ovo e nozes.  </p>
+
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0012.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Framboesa </h3>
+                            <p class="card-text text-center"> Bolo branco, recheio de geleia de framboesa e leite condensado, cobertura com chanttily (opcional).
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo.  </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+               
+
+            
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0016.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Baunilha</h3>
+                            <p class="card-text text-center"> Bolo branco,com essência de baunilha.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. 
+                                                              Pode conter amendoim, amêndoa, castanha de caju, castanha do Pará e avelã. </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+       
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0018.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Docxe de leite com morango </h3>
+                            <p class="card-text text-center"> Bolo branco, recheio de doce de leite com morangos, 
+                                                              cobertura de mousse branca, leite condensado e morangos.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0021.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Merengue </h3>
+                            <p class="card-text text-center"> Bolo branco, recheio de mousse de leite em pó com morango e mousse de leite em pó, 
+                                                              cobertura de mousse branco, raspas de chocolate branco, leite em pó e morango.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. 
+                                                              Pode conter amendoim, amêndoa, castanha de caju, castanha do Pará e avelã.. </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0022.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Amora </h3>
+                            <p class="card-text text-center"> Bolo banco, cobertura com calda de amoras.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. 
+                                                              Pode conter amendoim, amêndoa, castanha de caju, castanha do Pará e avelã. </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+         
+                
+                <!-- /.col-md-4 -->
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                       
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0024.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Bolo de café</h3>
+                            <p class="card-text text-center"> Bolo com massa de café, cobertura com sementes torradas.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. 
+                                                              Pode conter amendoim, amêndoa, castanha de caju, castanha do Pará e avelã. </p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+               
+
+
+
+
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0026.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Sensação </h3>
+                            <p class="card-text text-center">Bolo de chocolate, recheio de mousse de chocolate e creme gelado com morangos, 
+                                                              cobertura de mousse de chocolate, ganache de morango e morangos.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo.</p>
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+                
+                <!-- /.col-md-4 -->
+          
+                
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0032.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Jack Daniel's </h3>
+                            <p class="card-text text-center"> Bolo de chocolate, recheio de mousse de chocolate e Jack Daniel's, 
+                                                              cobertura de trufado de chocolate e cerejas (decorativas).
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. 
+                                                              Pode conter amendoim, amêndoa, castanha de caju, castanha do Pará e avelã. </p>
+
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+                </div>   
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100" style=" border: 0">
+                        
+                        <img class="card-img-top" src="img/catalogo2/IMG-20191209-WA0033.jpg" style=" border-radius: 5% 5% 5% 5%; border: 2px solid #b21f2d;" width="150px" height="200px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center"> Maracujá </h3>
+                            <p class="card-text text-center"> Bolo branco, recheio de mousse de maracujá, 
+                                                              cobertura com caldade maracujá.
+                                                              Contém glúten e lactose. Alérgicos: contém farinha de trigo, leite e derivados e ovo. 
+                                                              Pode conter amendoim, amêndoa, castanha de caju, castanha do Pará e avelã. </p>
+
+                        </div>
+                        <div class="card">
+                            <a href="login.php" class="btn btn-outline-danger"> Encomendar </a>
+                        </div>
+                    </div>
+               
+                                          
+            </div>
+
+        </main>
+
+
+<?php
+include ('includes/footer.php');
+?>  
+
+
+
+
+
+    </body>
+</html>
